@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		BEB2798929A213DB006E7E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2798829A213DB006E7E1E /* AppDelegate.swift */; };
 		BEB2798B29A213DB006E7E1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2798A29A213DB006E7E1E /* SceneDelegate.swift */; };
-		BEB2798D29A213DB006E7E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2798C29A213DB006E7E1E /* ViewController.swift */; };
-		BEB2799029A213DB006E7E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB2798E29A213DB006E7E1E /* Main.storyboard */; };
 		BEB2799229A213DD006E7E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB2799129A213DD006E7E1E /* Assets.xcassets */; };
 		BEB2799529A213DD006E7E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB2799329A213DD006E7E1E /* LaunchScreen.storyboard */; };
+		BEEFA19C29ACB27600137EC0 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA19B29ACB27600137EC0 /* HabitsStore.swift */; };
+		BEEFA19E29ACB3EE00137EC0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA19D29ACB3EE00137EC0 /* Extensions.swift */; };
+		BEEFA1A029ACB80F00137EC0 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA19F29ACB80F00137EC0 /* HabitsViewController.swift */; };
+		BEEFA1A229ACB82400137EC0 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA1A129ACB82400137EC0 /* InfoViewController.swift */; };
+		BEEFA1A429ACB9DB00137EC0 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA1A329ACB9DB00137EC0 /* HabitViewController.swift */; };
+		BEEFA1A629ACBA9600137EC0 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA1A529ACBA9600137EC0 /* ProgressCollectionViewCell.swift */; };
+		BEEFA1A829ACBAC100137EC0 /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA1A729ACBAC100137EC0 /* HabitDetailsViewController.swift */; };
+		BEEFA1AA29ACBB2100137EC0 /* HabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFA1A929ACBB2100137EC0 /* HabitCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEB2798529A213DB006E7E1E /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB2798829A213DB006E7E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB2798A29A213DB006E7E1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEB2798C29A213DB006E7E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEB2798F29A213DB006E7E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB2799129A213DD006E7E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB2799429A213DD006E7E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB2799629A213DD006E7E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEFA19B29ACB27600137EC0 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		BEEFA19D29ACB3EE00137EC0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BEEFA19F29ACB80F00137EC0 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		BEEFA1A129ACB82400137EC0 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BEEFA1A329ACB9DB00137EC0 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
+		BEEFA1A529ACBA9600137EC0 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEEFA1A729ACBAC100137EC0 /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
+		BEEFA1A929ACBB2100137EC0 /* HabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,27 @@
 			children = (
 				BEB2798829A213DB006E7E1E /* AppDelegate.swift */,
 				BEB2798A29A213DB006E7E1E /* SceneDelegate.swift */,
-				BEB2798C29A213DB006E7E1E /* ViewController.swift */,
-				BEB2798E29A213DB006E7E1E /* Main.storyboard */,
+				BEEFA1AB29ACF7F800137EC0 /* Habits */,
+				BEEFA1A129ACB82400137EC0 /* InfoViewController.swift */,
 				BEB2799129A213DD006E7E1E /* Assets.xcassets */,
 				BEB2799329A213DD006E7E1E /* LaunchScreen.storyboard */,
 				BEB2799629A213DD006E7E1E /* Info.plist */,
+				BEEFA19D29ACB3EE00137EC0 /* Extensions.swift */,
+				BEEFA19B29ACB27600137EC0 /* HabitsStore.swift */,
 			);
 			path = MyHabits;
+			sourceTree = "<group>";
+		};
+		BEEFA1AB29ACF7F800137EC0 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				BEEFA1A329ACB9DB00137EC0 /* HabitViewController.swift */,
+				BEEFA19F29ACB80F00137EC0 /* HabitsViewController.swift */,
+				BEEFA1A729ACBAC100137EC0 /* HabitDetailsViewController.swift */,
+				BEEFA1A929ACBB2100137EC0 /* HabitCollectionViewCell.swift */,
+				BEEFA1A529ACBA9600137EC0 /* ProgressCollectionViewCell.swift */,
+			);
+			path = Habits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +153,6 @@
 			files = (
 				BEB2799529A213DD006E7E1E /* LaunchScreen.storyboard in Resources */,
 				BEB2799229A213DD006E7E1E /* Assets.xcassets in Resources */,
-				BEB2799029A213DB006E7E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +163,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB2798D29A213DB006E7E1E /* ViewController.swift in Sources */,
+				BEEFA19C29ACB27600137EC0 /* HabitsStore.swift in Sources */,
 				BEB2798929A213DB006E7E1E /* AppDelegate.swift in Sources */,
+				BEEFA1A429ACB9DB00137EC0 /* HabitViewController.swift in Sources */,
 				BEB2798B29A213DB006E7E1E /* SceneDelegate.swift in Sources */,
+				BEEFA1A029ACB80F00137EC0 /* HabitsViewController.swift in Sources */,
+				BEEFA1A229ACB82400137EC0 /* InfoViewController.swift in Sources */,
+				BEEFA1A629ACBA9600137EC0 /* ProgressCollectionViewCell.swift in Sources */,
+				BEEFA1A829ACBAC100137EC0 /* HabitDetailsViewController.swift in Sources */,
+				BEEFA19E29ACB3EE00137EC0 /* Extensions.swift in Sources */,
+				BEEFA1AA29ACBB2100137EC0 /* HabitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEB2798E29A213DB006E7E1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEB2798F29A213DB006E7E1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEB2799329A213DD006E7E1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,9 +315,8 @@
 				INFOPLIST_FILE = MyHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +341,8 @@
 				INFOPLIST_FILE = MyHabits/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

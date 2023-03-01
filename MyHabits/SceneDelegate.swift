@@ -16,7 +16,41 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: scene)
+
+        let tabBarController = UITabBarController()
+        tabBarController.tabBar.tintColor = .purpleCustom
+
+        let habitsVC = HabitsViewController()
+        let infoVC = InfoViewController()
+
+        let habitsNC = UINavigationController(rootViewController: habitsVC)
+        let infoNC = UINavigationController(rootViewController: infoVC)
+
+        tabBarController.viewControllers = [habitsNC, infoNC]
+
+        if #available(iOS 15.0, *) {
+            let appearanceNavigationBar = UINavigationBarAppearance()
+            let appearanceTabBar = UITabBarAppearance()
+
+            appearanceNavigationBar.configureWithOpaqueBackground()
+            appearanceTabBar.configureWithOpaqueBackground()
+
+            appearanceNavigationBar.backgroundColor = .systemBackground
+            appearanceTabBar.backgroundColor = .systemBackground
+
+            habitsNC.navigationBar.standardAppearance = appearanceNavigationBar
+            infoNC.navigationBar.standardAppearance = appearanceNavigationBar
+            tabBarController.tabBar.standardAppearance = appearanceTabBar
+            
+            habitsNC.navigationBar.scrollEdgeAppearance = habitsNC.navigationBar.standardAppearance
+            infoNC.navigationBar.scrollEdgeAppearance = infoNC.navigationBar.standardAppearance
+            tabBarController.tabBar.scrollEdgeAppearance = tabBarController.tabBar.standardAppearance
+        }
+
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
